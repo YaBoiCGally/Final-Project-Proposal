@@ -5,7 +5,19 @@ Cameron Gallagher | 14 Sept 2020 | Professor Dominic Letarte
 
 ### Project Description
 
-In this project, I intend to implement a reduced ruleset presented in the [SRD5](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf), as presented by Wizard's of the Coast, making use of their Open Game License and Fan Content Policy.  The project will be coded entirely in Java, utilizing the flexibility of class and interface implementations, and inheritence and polymorphism. The project will utilize a GUI to represent a gridded battle map, with elements including PCs, monsters, areas of effect, and terrain modifiers.
+In this project, I intend to develop a battle simulator, implementing a reduced ruleset of that presented in the [SRD5](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf). The project will allow a user to create monster and character units, and use those to run a simulated battle encounter, with each unit taking its turn in initiative order, and acting against the opposing forces.  The GUI will display the encounter as it progresses, and the GUI console will display results of each turn.
+
+### Technologies
+- Java (Main program, File I/O & Primative AI)
+- JSON or MySQL (Configuration Storage)
+- Java AWT (GUI)
+
+Alternatively, this program can be built as a web app:
+- Javascript (Main program, Filo I/O, Primative AI)
+- HTML/CSS (GUI and user input)
+- JSON or MySQL (Configuration Storage)
+
+Either option will produce similar results, and is dependant on group experience and preference.
 
 ### UML Diagram
 
@@ -16,7 +28,7 @@ In this project, I intend to implement a reduced ruleset presented in the [SRD5]
 This project will mainly draw upon the educational goals of Object Oriented Design and Graphical User Interfaces.  To a lesser extent, the project will be utilizing On-the-fly Coding and Design Patterns. The practical usage of these goals are detailed:
 
 - Object Oriented Design
-  - This program will use object oriented design massively.  Almost every piece of functionality will be derived from an object (PCs and monsters, maps, AI).  This is important specifically to this program, and in a broader sense as well because almost all of the invidual units will have many functions in common (creation, modification, deployment, initiative), and using the principles of OOD, the amount of coding will be minimized.
+  - This program will use object oriented design massively.  Almost every piece of functionality will be derived from an object (PCs and monsters, maps, AI).  This is important specifically to this program, and in a broader sense as well because almost all of the invdiidual units will have many functions in common (creation, modification, deployment, initiative), and using the principles of OOD, the amount of coding will be minimized.
   
 - Graphical User Interface
   - This program will utilize a GUI to depict the simulated battle to the user.  This principle is important in that it allows the programs user to understand what the program is doing, on a surface level, without having to dig into the code or console.  They can simply execute a file, and watch the program work.  This user display will hopefully employ the ideas of UX and UI design to a high standard.
@@ -33,19 +45,9 @@ Within the GUI console, the user will be able to configure different units (PCs 
 
 As part of the initial implementation, there will be a number of built in PCs and monsters.  Each PC and monster will be able to make use of one of the hard coded AIs for behavior, which details the usage of actions, bonus actions and reactions on their turn.  The program will then automatically execute a full battle, determining the winner based on the preset conditions.
   
-#### Necessary Skills
-
-- Understanding of Java
-- General idea of JSON format
-- Strong understanding of GUI
-- Experience with DnD 5e ruleset**
-- (Optional) Understanding of database integration in Java
-
-** Though this is not necessary, it takes away a lot of the background reading this project entails
-  
 #### Relevant Documents/Legal
 
-This project is in compliance with the SRD5 Open Game License.  More detailed explanation of Wizard's of the Coast's legal requirements can be found through the following links:
+This project is in compliance with the SRD5 Open Game License and Fan Content Policy.  More detailed explanation of Wizard's of the Coast's legal requirements can be found through the following links:
 
 - [DnD SRD5](https://media.wizards.com/2016/downloads/DND/SRD-OGL_V5.1.pdf)
 - [Fan Content Policy](https://company.wizards.com/fancontentpolicy)
