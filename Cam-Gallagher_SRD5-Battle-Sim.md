@@ -9,7 +9,7 @@ In this project, I intend to implement a reduced ruleset presented in the [SRD5]
 
 ### UML Diagram
 
-[Use case of Program](Cam-Gallagher_SRD5-Battle-Sim.png)
+![Use Case of Program](Cam-Gallagher_SRD5-Battle-Sim.png)
 
 ### Educational Goals
 
